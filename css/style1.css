@@ -1,0 +1,52 @@
+html, body
+{
+	width:100%;
+	height:100%;
+    background-color:red;
+
+}
+
+.black
+{
+	background-color:black;
+	opacity:.80;
+}
+
+.white
+{
+	background-color:white;
+	opacity:.20;
+}
+
+@-webkit-keyframes myfirst 
+{
+
+	from {background:red;}
+	to {background:yellow;}
+}
+
+@-webkit-keyframes growBox {
+	
+	from {rotation:0deg;}
+	to {rotation:200deg;}
+  
+
+}
+
+.change-size {
+	
+	-webkit-animation: growBox 3s linear 0s 1 normal;
+}
+
+.img-container
+{
+	position:relative;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:4%;
+	background-color:#FFFFFF;
+	border-radius:50px;
+	box-shadow: 10px 10px 50px #888;
+	width:60%;
+	height:50%;
+}
